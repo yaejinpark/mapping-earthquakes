@@ -4,7 +4,7 @@ Module 13 - Mapping Earthquakes
 
 ## Overview
 
-Instead of coding for visualization of data in a file like the previous project, my goal for this project was to demonstrate how I can use Leafly and D3 to obtain dynamic data via API to show earthquake information from around the globe. The structure of the earthquakes' JSON data was more complex than the previous project's data, so learning how to get the right information from it was one of the main challenges. The other main challenge was to become familiar with Leafly.
+Instead of coding for visualization of data in a file like the previous project, my goal for this project was to demonstrate how I can use Leaflet and D3 to obtain dynamic data via API to show earthquake information from around the globe. The structure of the earthquakes' JSON data was more complex than the previous project's data, so learning how to get the right information from it was one of the main challenges. The other main challenge was to become familiar with Leaflet.
 
 ## Result
 
