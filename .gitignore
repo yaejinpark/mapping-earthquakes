@@ -1,2 +1,9 @@
 .DS_Store
 static/js/config.js
+static/js/logicStep1.js
+static/js/logicStep2.js
+static/js/logicStep3.js
+static/js/logicStep4.js
+majorAirpots.json
+torontoRoutes.json
+torontoNeighborhoods.json
