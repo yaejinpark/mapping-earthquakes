@@ -12,6 +12,13 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
     accessToken: API_KEY
 });
 
+// Deliverable 3 - Add another tile layer
+let darkMap = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    accessToken: API_KEY
+});
+
 // 1. Add a 2nd layer group for the tectonic plate data.
 let earthquakes = new L.layerGroup();
 let tectonicPlates = new L.layerGroup();
@@ -20,7 +27,8 @@ let majorEarthquakes = new L.layerGroup();
 // Create a base layer that holds both maps.
 let baseMaps = {
   "Streets": streets,
-  "Satellite": satelliteStreets
+  "Satellite": satelliteStreets,
+  "Dark Map": darkMap
 };
 
 // 2. Add a reference to the tectonic plates group to the overlays object.
